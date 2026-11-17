@@ -26,9 +26,8 @@ JUDGE_SCORE_IN_SCORE_1 = ROLEPLAY_EVENTS | SELLING
 CATEGORIES = [
     ('Principles (PEN, PMK)', PRINCIPLES_A),
     ('Principles (PBM, PFN, PHT)', PRINCIPLES_B),
-    ('Individual Series', SERIES),
+    ('Individual Series + PFL', SERIES | PFL),
     ('Team Decision Making', TDM),
-    ('Personal Financial Literacy', PFL),
     ('Operations Research', RESEARCH),
     ('Business Plans', BUSINESS_PLANS),
     ('Pitch Decks (EIP, ESB)', PITCH_DECKS),
